@@ -1,0 +1,36 @@
+/* home section  */
+#home{
+    height: 386px;
+    padding: 3px 53px;
+    margin-top: 41px;
+}
+#home::before{
+    height: 480px;
+}
+#home h1{
+    font-size: 2.5rem;
+    margin: 23px 28px;
+}
+#home h2{
+    font-size: 1.9rem;
+}
+/* intro  */
+#content{
+    margin: -34px -38px;
+}
+#intro{
+    margin-top: 100px;
+
+}
+/* skills */
+#skills{
+    flex-direction: column;
+}
+#skills .box{
+    padding: 12px;
+    margin: 2px 0px;
+    margin-bottom: 10px;
+}
+#h-primary{
+    padding-top: 7px;
+}

@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* home section  */
+#home{
+    /* border: 2px solid red;*/
+    color: white;
+     padding: 2px 200px;
+    height: 544px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 86px;
+}
+#home::before{
+    content: "";
+    background: url('../img/bg.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+ #home h1{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 3.6rem;
+    margin: 34px;
+} 
+#home h2{
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    height: 2px
+}
+
+/* My intro  */
+#intro{
+    display: flex;
+    margin: 107px 53px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+#intro .bio{
+    height: 534px;
+    margin-top: 0px;
+}
+#intro .bio img{
+    border-radius: 50%;
+    margin: auto;
+    height: 344px;
+    display: block;
+}
+#intro p{
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+}
+.h-secondary{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin: 44px;
+    font-size: 2.4rem;
+    color: blueviolet;
+}
+
+/* about me */
+#h-primary{
+    text-align: center;
+    font-size: 2.4rem;
+}
+#skills{
+    display: flex;
+    margin: 34px;
+}
+#skills .box{
+    border: 2px solid brown;
+    margin: 2px 55px;
+    padding: 34px;
+    border-radius: 28px;
+    margin-bottom: 20px;
+    background-color: rgb(230 227 237);
+}
+#skills .box img{
+    margin: auto;
+    display: block;
+    height: 160px;
+    border-radius: 12px;
+}
+#skills .box p{
+    padding: 12px 13px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.center{
+    text-align: center;
+}
+
+/* contact section  */
+#contact-me{
+    position: relative;
+    background-color: rgb(178 207 235);
+}
+ #cm{
+    font-size: 3.6rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box img{
+    width: 32px;
+    height: 30px;
+    border-radius: 12px;
+}
+#contact-box a{
+    margin: 5px;
+    
+}
+footer{
+    background: black;
+    color: wheat;
+    padding: 9px 20px;
+}
